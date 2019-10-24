@@ -363,3 +363,15 @@ $(document).ready(function (){
 	})
 })
 
+// Work Experience
+$('.bullets').addClass('hide');
+$('.read-more').on('click', function() {
+	$(this).prev('.bullets').toggleClass('hide');
+	if ($(this).text() == "Read More") {
+		$(this).text("Read Less");
+		$(this).prop('class', 'read-more button primary fit small icon solid fa-chevron-up');
+	} else {
+		$(this).text("Read More");
+		$(this).prop('class', 'read-more button fit small icon solid fa-chevron-down');
+	};
+  });
