@@ -337,24 +337,22 @@
 // Contact Form
 $(document).ready(function (){
 	$('.submit').click(function (event) {
-		console.log('Clicked Button');
-
 		var email = $('.email').val()
 		var message = $('.message').val()
 		var statusElm = $('.status')
 		statusElm.empty()
 
 		if(email.length > 5 && email.includes('@') && email.includes('.')){
-			statusElm.append('<p>Email is valid</p>')
+			console.log('Email is valid')
 		} else {
-			statusElm.append('<p>Email is not valid</p>')
+			statusElm.append('<p><i class="fas fa-exclamation-circle"></i> Email is not valid</p>')
 			event.preventDefault()
 		}
 
 		if(message.length > 5) {
-			statusElm.append('<p>Message is valid</p>')
+			console.log('Message is valid')
 		} else {
-			statusElm.append('<p>Message is not valid</p>')
+			statusElm.append('<p><i class="fas fa-exclamation-circle"></i> Message is not valid</p>')
 			event.preventDefault()
 		}
 	})
@@ -365,3 +363,15 @@ $(document).ready(function (){
 	})
 })
 
+// Work Experience
+$('.bullets').addClass('hide');
+$('.read-more').on('click', function() {
+	$(this).prev('.bullets').toggleClass('hide');
+	if ($(this).text() == "Read More") {
+		$(this).text("Read Less");
+		$(this).prop('class', 'read-more button primary fit small icon solid fa-chevron-up');
+	} else {
+		$(this).text("Read More");
+		$(this).prop('class', 'read-more button fit small icon solid fa-chevron-down');
+	};
+  });

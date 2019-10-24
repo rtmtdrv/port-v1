@@ -46,6 +46,52 @@ footer, header, hgroup, menu, nav, section {
 	display: inline-block;
 }
 
+.job-title {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	margin-bottom: 2px;
+}
+
+.work-title {
+	font-weight: 300;
+	/* font-size: 16px; */
+}
+
+.date {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.7em;
+	letter-spacing: 0.25em;
+}
+
+.bullets {
+	margin-top: -20px;
+	margin-left: 5px;
+	font-weight: 200;
+	font-size: .85em;
+}
+
+.bullets li {
+	margin-top: 10px;
+}
+
+.status p  {
+	text-align: center;
+	text-transform: uppercase;
+
+	font-weight: 600;
+	background-color: #d32f2f;
+	margin-top: -10px;
+	padding: 5px;
+	font-size: 0.8em;
+	/* border-radius: 5px;   */
+	letter-spacing: .125em;
+}
+ 
+.hide {
+	display: none;
+}
+
 body::-webkit-scrollbar {
     width: 1em;
 }
