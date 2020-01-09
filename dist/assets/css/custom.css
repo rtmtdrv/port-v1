@@ -1,0 +1,84 @@
+.main-headline {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+}
+
+.project-names {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+
+.my-logo {
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+	border-radius: 100%;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.job-title {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	margin-bottom: 2px;
+}
+
+.work-title {
+	font-weight: 300;
+	/* font-size: 16px; */
+}
+
+.date {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.7em;
+	letter-spacing: 0.25em;
+}
+
+.bullets {
+	margin-top: -20px;
+	margin-left: 5px;
+	font-weight: 200;
+	font-size: .85em;
+}
+
+.bullets li {
+	margin-top: 10px;
+}
+
+.status p  {
+	text-align: center;
+	text-transform: uppercase;
+
+	font-weight: 600;
+	background-color: #d32f2f;
+	margin-top: -10px;
+	padding: 5px;
+	font-size: 0.8em;
+	/* border-radius: 5px;   */
+	letter-spacing: .125em;
+}
+ 
+.hide {
+	display: none;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+	/* -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3); */ 
+	background-color: transparent;
+	
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid slategrey;
+}
+
+.project-info {
+	font-size: .85em;
+}

@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-@import url('https://fonts.googleapis.com/css?family=Rubik:500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Rubik:500,700&display=swap");
+@import "custom.css";
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -23,89 +24,6 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-
-/* Custom */
-
-.main-headline {
-	color: white;
-	font-family: 'Rubik', sans-serif;
-}
-
-.project-names {
-	font-family: 'Rubik', sans-serif;
-	font-weight: 500;
-}
-
-.my-logo {
-	background: #fff;
-	height: 30px;
-	width: 30px;
-	vertical-align: middle;
-	border-radius: 100%;
-	margin-right: 5px;
-	display: inline-block;
-}
-
-.job-title {
-	font-family: 'Rubik', sans-serif;
-	font-weight: 500;
-	margin-bottom: 2px;
-}
-
-.work-title {
-	font-weight: 300;
-	/* font-size: 16px; */
-}
-
-.date {
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 0.7em;
-	letter-spacing: 0.25em;
-}
-
-.bullets {
-	margin-top: -20px;
-	margin-left: 5px;
-	font-weight: 200;
-	font-size: .85em;
-}
-
-.bullets li {
-	margin-top: 10px;
-}
-
-.status p  {
-	text-align: center;
-	text-transform: uppercase;
-
-	font-weight: 600;
-	background-color: #d32f2f;
-	margin-top: -10px;
-	padding: 5px;
-	font-size: 0.8em;
-	/* border-radius: 5px;   */
-	letter-spacing: .125em;
-}
- 
-.hide {
-	display: none;
-}
-
-body::-webkit-scrollbar {
-    width: 1em;
-}
- 
-body::-webkit-scrollbar-track {
-	/* -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3); */ 
-	background-color: transparent;
-	
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: white;
-  outline: 1px solid slategrey;
-}
 
 /* Beginning */
 
@@ -2873,7 +2791,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.65;
+				opacity: 0.70;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2916,7 +2834,8 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #34ace0;
+				background-color: #F6A2AD; 
+				/* background-color: #34ace0; */
 			}
 
 			.tiles article:nth-child(6n - 3):before {
@@ -3352,11 +3271,12 @@ input, select, textarea {
 			}
 
 			#header.alt.style4 .logo strong {
-				color: #e7b788;
+				color: #f5cd79;
 			}
 
 			#header.alt.style5 .logo strong {
-				color: #8ea9e8;
+				color: #706fd3;
+				/* color: #8ea9e8; */
 			}
 
 			#header.alt.style6 .logo strong {
@@ -3584,11 +3504,13 @@ input, select, textarea {
 		}
 
 		#banner.style4:after {
-			background-color: #e7b788;
+			background-color: #f5cd79;
+			/* background-color: #e7b788; */
 		}
 
 		#banner.style5:after {
-			background-color: #8ea9e8;
+			background-color: #706fd3;
+			/* background-color: #8ea9e8; */
 		}
 
 		#banner.style6:after {

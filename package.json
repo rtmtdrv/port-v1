@@ -7,8 +7,7 @@
     "deploy": "gh-pages -d dist"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/heroku/node-js-getting-started.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/heroku/node-js-getting-started/issues"
   },
-  "homepage": "https://github.com/heroku/node-js-getting-started#readme",
   "dependencies": {
     "gh-pages": "^2.1.1"
   }
