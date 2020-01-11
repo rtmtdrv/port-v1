@@ -2831,19 +2831,23 @@ input, select, textarea {
 
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #706fd3;
+				box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.4);
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #F6A2AD; 
-				/* background-color: #34ace0; */
+				background-color: #F6A2AD;
+				box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.4);
 			}
 
 			.tiles article:nth-child(6n - 3):before {
 				background-color: #33d9b2;
+				box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.4);
+
 			}
 
 			.tiles article:nth-child(6n - 2):before {
 				background-color: #f5cd79;
+				box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.4);
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -3267,7 +3271,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style3 .logo strong {
-				color: #ec8d81;
+				color: #F6A2AD;
 			}
 
 			#header.alt.style4 .logo strong {
@@ -3280,7 +3284,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style6 .logo strong {
-				color: #87c5a4;
+				color: #33d9b2;
 			}
 
 		body.is-preload #header.alt {
@@ -3500,7 +3504,7 @@ input, select, textarea {
 		}
 
 		#banner.style3:after {
-			background-color: #ec8d81;
+			background-color: #F6A2AD;
 		}
 
 		#banner.style4:after {
@@ -3514,7 +3518,7 @@ input, select, textarea {
 		}
 
 		#banner.style6:after {
-			background-color: #87c5a4;
+			background-color: #33d9b2;
 		}
 
 		body.is-preload #banner:after {
