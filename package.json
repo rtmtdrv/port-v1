@@ -1,8 +1,8 @@
 {
   "name": "Live",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Portfolio",
+  "main": "",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
@@ -10,11 +10,11 @@
     "type": "git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Art Todorov",
   "license": "ISC",
   "homepage": "https://rtmtdrv.github.io/port-v1",
   "bugs": {
-    "url": "https://github.com/heroku/node-js-getting-started/issues"
+    "url": "www.arttodorov.com"
   },
   "dependencies": {
     "gh-pages": "^2.1.1"
